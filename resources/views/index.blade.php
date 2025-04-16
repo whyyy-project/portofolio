@@ -830,7 +830,7 @@
 
                             var mailtoLink = 'mailto:wahyu.nur.cahyo.id@gmail.com' +
                                 '?subject=' + encodeURIComponent(subject) +
-                                '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
+                                '&body=' + encodeURIComponent('Nama : ' + name + '\nEmail : ' + email + '\n\n' + message);
 
                             window.location.href = mailtoLink;
                         });
