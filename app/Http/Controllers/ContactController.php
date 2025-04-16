@@ -29,4 +29,5 @@ class ContactController extends Controller
             return back()->with('failed', 'Gagal mengirim pesan. Coba lagi nanti.');
         }
     }
+
 }
