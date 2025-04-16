@@ -44,11 +44,11 @@
         </a>
 
         <div class="social-links text-center">
-            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
+                <a href="#" class="social-links"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
         </div>
 
         <nav id="navmenu" class="navmenu">
@@ -84,6 +84,7 @@
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <h2>Wahyu Nur Cahyo</h2>
+
                 <p>I'm <span class="typed"
                         data-typed-items="Programmer, Web Developer, Freelancer"></span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
@@ -106,7 +107,7 @@
 
             <div class="social-links text-center">
                 <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="social-links"><i class="bi bi-instagram"></i></a>
                 <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
                 <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
                 <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
