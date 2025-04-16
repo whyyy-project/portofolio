@@ -1,33 +1,43 @@
 <?php
+
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
-use Exception;
+use Symfony\Component\Mime\Part\TextPart;
 
 class ContactController extends Controller
 {
     public function send(Request $request)
     {
-        $data = $request->validate([
-            'name'    => 'required|string|max:255',
-            'email'   => 'required|email',
-            'subject' => 'required|string|max:255',
+        // Validasi
+        $request->validate([
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'subject' => 'required|string',
             'message' => 'required|string',
         ]);
 
-        try {
-            Mail::send('emails.contact', $data, function ($message) use ($data) {
-                $message->to('wahyu@sirese.biz.id') // email tujuan
-                        ->subject($data['subject'])
-                        ->from('wahyu@sirese.biz.id', 'Website Contact') // kirim dari domain sendiri
-                        ->replyTo($data['email'], $data['name']); // balasan ke pengirim
-            });
+        // Data form
+        $data = [
+            'name'    => $request->name,
+            'email'   => $request->email,
+            'subject' => $request->subject,
+            'body'    => $request->message,
+        ];
 
-            return back()->with('success', 'Pesan Anda berhasil dikirim!');
-        } catch (Exception $e) {
-            return back()->with('failed', 'Gagal mengirim pesan. Coba lagi nanti.');
-        }
+        // Kirim email
+        Mail::send([], [], function ($message) use ($data) {
+            $message->to('wahyu@sirese.biz.id')
+                    ->subject($data['subject'])
+                    ->setBody(
+                        new TextPart(
+                            "Nama: {$data['name']}\nEmail: {$data['email']}\n\nPesan:\n{$data['body']}"
+                        )
+                    );
+        });
+
+        // Redirect balik dengan pesan sukses
+        return back()->with('success', 'Pesan berhasil dikirim!');
     }
-
 }
