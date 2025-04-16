@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Index - iPortfolio Bootstrap Template</title>
+    <title>Wahyu Nur Cahyo | Protofolio</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -40,7 +40,7 @@
         <a href="index.html" class="logo d-flex align-items-center justify-content-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <!-- <img src="assets/img/logo.png" alt=""> -->
-            <h1 class="sitename">Alex Smith</h1>
+            <h1 class="sitename">Wahyu Nur Cahyo</h1>
         </a>
 
         <div class="social-links text-center">
@@ -83,7 +83,7 @@
             <img src="{{ url('') }}/assets/img/background.jpg" alt="" data-aos="fade-in" class="hero-img">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <h2>Alex Smith</h2>
+                <h2>Wahyu Nur Cahyo</h2>
                 <p>I'm <span class="typed"
                         data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
@@ -101,7 +101,7 @@
             <a href="index.html" class="logo d-flex align-items-center justify-content-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1 class="sitename">Alex Smith</h1>
+                <h1 class="sitename">Wahyu Nur Cahyo</h1>
             </a>
 
             <div class="social-links text-center">
