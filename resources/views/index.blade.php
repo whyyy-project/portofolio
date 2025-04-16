@@ -85,7 +85,7 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <h2>Wahyu Nur Cahyo</h2>
                 <p>I'm <span class="typed"
-                        data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span
+                        data-typed-items="Web Developer, Freelancer, Academic Writing Support">Web Developer</span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             </div>
