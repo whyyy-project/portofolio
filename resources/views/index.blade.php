@@ -32,6 +32,32 @@
 
 <body class="index-page">
 
+    @if (session('success'))
+        <div class="custom-alert" id="successNotification">
+            <div class="custom-alert-img"></div>
+            <div class="custom-alert-textbox">
+                <div class="custom-alert-textcontent">
+                    <p class="custom-alert-title">Berhasil!</p>
+                </div>
+                <p class="custom-alert-message">{{ session('success') }}</p>
+            </div>
+        </div>
+        <script>
+            window.addEventListener('DOMContentLoaded', () => {
+                const notif = document.getElementById('successNotification');
+                if (notif) {
+                    setTimeout(() => {
+                        notif.style.opacity = '0';
+                        notif.style.transform = 'translateX(100%)';
+                        setTimeout(() => notif.remove(), 1000);
+                    }, 15000);
+                }
+            });
+        </script>
+    @endif
+
+
+
     <header class="header dark-background d-flex flex-column mobile-header">
         <div class="profile-img">
             <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle">
@@ -80,7 +106,8 @@
         <!-- Hero Section -->
         <section id="hero" class="hero section dark-background">
 
-            <img src="{{ url('') }}/assets/img/background.jpg" alt="" data-aos="fade-in" class="hero-img">
+            <img src="{{ url('') }}/assets/img/background.jpg" alt="" data-aos="fade-in"
+                class="hero-img">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <h2>Wahyu Nur Cahyo</h2>
@@ -786,7 +813,43 @@
                         </div>
                     </div>
 
+
                     <div class="col-lg-7">
+                        <form action="{{ route('contact.send') }}" method="POST" class="php-email-form"
+                            data-aos="fade-up" data-aos-delay="200">
+                            @csrf
+                            <div class="row gy-4">
+                                <div class="col-md-6">
+                                    <label for="name-field" class="pb-2">Your Name</label>
+                                    <input type="text" name="name" id="name-field" class="form-control"
+                                        required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="email-field" class="pb-2">Your Email</label>
+                                    <input type="email" name="email" id="email-field" class="form-control"
+                                        required>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="subject-field" class="pb-2">Subject</label>
+                                    <input type="text" name="subject" id="subject-field" class="form-control"
+                                        required>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <label for="message-field" class="pb-2">Message</label>
+                                    <textarea name="message" id="message-field" class="form-control" rows="10" required></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    {{-- <div class="col-lg-7">
                         <form id="contact-form" action="javascript:void(0);" class="php-email-form"
                             data-aos="fade-up" data-aos-delay="200">
                             @csrf
@@ -834,7 +897,7 @@
 
                             window.location.href = mailtoLink;
                         });
-                    </script>
+                    </script> --}}
 
                 </div>
 
@@ -863,21 +926,11 @@
 
     </footer>
 
-    @if (session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
-    @endif
-
-    @if (session('failed'))
-        <div class="alert alert-danger">
-            {{ session('failed') }}
-        </div>
-    @endif
-
     <!-- Scroll Top -->
     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
+
+
 
     <!-- Preloader -->
     <div id="preloader"></div>
