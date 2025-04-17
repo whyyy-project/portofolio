@@ -1448,3 +1448,6 @@ section,
   font-weight: lighter;
   text-align: left;
 }
+.text-justify{
+    text-align:justify;
+}

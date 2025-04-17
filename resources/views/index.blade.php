@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="utf-8">
@@ -70,10 +70,14 @@
         </a>
 
         <div class="social-links text-center">
-            <a href="https://www.tiktok.com/@cumatukangketik" target="_blank" class="tiktok"><i class="bi bi-tiktok"></i></a>
-            <a href="https://www.instagram.com/cumatukangketik" target="_blank" class="social-links"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/wahyu-nur-cahyo-75b502268" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            <a href="https://www.facebook.com/share/12HZPePEgML/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.tiktok.com/@cumatukangketik" target="_blank" class="tiktok"><i
+                    class="bi bi-tiktok"></i></a>
+            <a href="https://www.instagram.com/cumatukangketik" target="_blank" class="social-links"><i
+                    class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/wahyu-nur-cahyo-75b502268" target="_blank" class="linkedin"><i
+                    class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/share/12HZPePEgML/" target="_blank" class="facebook"><i
+                    class="bi bi-facebook"></i></a>
             <a href="https://x.com/whyyyproject" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
         </div>
 
@@ -133,11 +137,16 @@
             </a>
 
             <div class="social-links text-center">
-                <a href="https://www.tiktok.com/@cumatukangketik" target="_blank" class="tiktok"><i class="bi bi-tiktok"></i></a>
-                <a href="https://www.instagram.com/cumatukangketik"  target="_blank" class="social-links"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/wahyu-nur-cahyo-75b502268" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                <a href="https://www.facebook.com/share/12HZPePEgML/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="https://x.com/whyyyproject" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.tiktok.com/@cumatukangketik" target="_blank" class="tiktok"><i
+                        class="bi bi-tiktok"></i></a>
+                <a href="https://www.instagram.com/cumatukangketik" target="_blank" class="social-links"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/wahyu-nur-cahyo-75b502268" target="_blank" class="linkedin"><i
+                        class="bi bi-linkedin"></i></a>
+                <a href="https://www.facebook.com/share/12HZPePEgML/" target="_blank" class="facebook"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="https://x.com/whyyyproject" target="_blank" class="twitter"><i
+                        class="bi bi-twitter-x"></i></a>
             </div>
         </section>
         <!-- About Section -->
@@ -146,7 +155,19 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>About</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum distinctio pariatur.</p>
+                <div class="text-justify">
+                    <p>
+                        Halo! Saya Wahyu Nur Cahyo, seorang web developer asal Bojonegoro yang berfokus pada
+                        pengembangan aplikasi berbasis Laravel dan CodeIgniter 4. Saya terbiasa menggunakan Tailwind dan
+                        Bootstrap untuk membangun tampilan web yang modern, responsif, dan efisien.
+                    </p>
+                    <i>
+                        Dengan pengalaman lebih dari 1 tahun, saya telah membantu berbagai klien lokal mengembangkan
+                        sistem informasi, landing page, hingga dashboard yang mendukung operasional mereka secara
+                        digital. Saya dikenal sebagai developer yang telaten, senang belajar hal baru, dan fokus pada
+                        hasil kerja yang rapi dan optimal.
+                    </i>
+                </div>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -159,44 +180,41 @@
                     <div class="col-lg-8 content">
                         <h2>Web Developer.</h2>
                         <p class="fst-italic py-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
+                            Berikut merupakan data pribadi saya :
                         </p>
                         <div class="row">
                             <div class="col-lg-6">
                                 <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May
-                                            1995</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Tanggal Lahir:</strong> <span>24
+                                            Desember 2000</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                        <span>www.example.com</span>
+                                        <span><a href="https://portofolio.sirese.biz.id/"
+                                                class="text-decoration-none text-dark">portofolio.sirese.biz.id</a></span>
                                     </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456
-                                            7890</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York,
-                                            USA</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Telepon/WhatsApp:</strong>
+                                        <span>+62 813 8129 3323</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Kota:</strong> <span>Bojonegoro,
+                                            Jawa Timur, Indonesia</span></li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">
                                 <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong>
-                                        <span>Master</span>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Usia:</strong> <span>24
+                                            Tahun</span></li>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Pendidikan:</strong>
+                                        <span>S1 Teknik Informatika</span>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                                        <span>email@example.com</span>
+                                        <span>wahyu@sirese.biz.id</span>
                                     </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
-                                        <span>Available</span>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Status Pernikahan:</strong>
+                                        <span>Belum Menikah</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <p class="py-3">
-                            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
-                            adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
-                            itaque neque.
+                        <p class="py-3 text-justify">
+                            Saya percaya bahwa teknologi bukan hanya soal kode, tapi juga solusi. Jika Anda membutuhkan partner teknis yang bisa diajak berdiskusi dan membangun solusi digital bersama, jangan ragu untuk menghubungi saya.
                         </p>
                     </div>
                 </div>
@@ -204,55 +222,6 @@
             </div>
 
         </section><!-- /About Section -->
-
-        <!-- Stats Section -->
-        <section id="stats" class="stats section">
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-                <div class="row gy-4">
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item">
-                            <i class="bi bi-emoji-smile"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item">
-                            <i class="bi bi-journal-richtext"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item">
-                            <i class="bi bi-headset"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="1453"
-                                data-purecounter-duration="1" class="purecounter"></span>
-                            <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item">
-                            <i class="bi bi-people"></i>
-                            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
-                        </div>
-                    </div><!-- End Stats Item -->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Stats Section -->
 
         <!-- Resume Section -->
         <section id="resume" class="resume section">
