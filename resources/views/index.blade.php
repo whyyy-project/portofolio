@@ -70,11 +70,11 @@
         </a>
 
         <div class="social-links text-center">
-            <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
-            <a href="#" class="social-links"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.tiktok.com/@cumatukangketik" target="_blank" class="tiktok"><i class="bi bi-tiktok"></i></a>
+            <a href="https://www.instagram.com/cumatukangketik" target="_blank" class="social-links"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/wahyu-nur-cahyo-75b502268" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/share/12HZPePEgML/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://x.com/whyyyproject" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
         </div>
 
         <nav id="navmenu" class="navmenu">
@@ -126,18 +126,18 @@
                     width="200px;">
             </div>
 
-            <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+            <a href="{{ url('/') }}" class="logo d-flex align-items-center justify-content-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                 <h1 class="sitename">Wahyu Nur Cahyo</h1>
             </a>
 
             <div class="social-links text-center">
-                <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
-                <a href="#" class="social-links"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.tiktok.com/@cumatukangketik" target="_blank" class="tiktok"><i class="bi bi-tiktok"></i></a>
+                <a href="https://www.instagram.com/cumatukangketik"  target="_blank" class="social-links"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/wahyu-nur-cahyo-75b502268" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.facebook.com/share/12HZPePEgML/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://x.com/whyyyproject" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
             </div>
         </section>
         <!-- About Section -->
