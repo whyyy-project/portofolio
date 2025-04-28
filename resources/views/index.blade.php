@@ -9,8 +9,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ env('APP_ASSETIC_URL') }}assets/img/icon.png" rel="icon">
-    <link href="{{ env('APP_ASSETIC_URL') }}assets/img/icon.png" rel="apple-touch-icon">
+    <link href="{{ url('') }}/assets/img/icon.png" rel="icon">
+    <link href="{{ url('') }}/assets/img/icon.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -20,13 +20,13 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{ env('APP_ASSETIC_URL') }}assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ env('APP_ASSETIC_URL') }}assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="{{ env('APP_ASSETIC_URL') }}assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="{{ env('APP_ASSETIC_URL') }}assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="{{ env('APP_ASSETIC_URL') }}assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="{{ url('') }}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ url('') }}/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="{{ url('') }}/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="{{ url('') }}/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="{{ url('') }}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- Main CSS File -->
-    <link href="{{ env('APP_ASSETIC_URL') }}assets/css/main.css" rel="stylesheet">
+    <link href="{{ url('') }}/assets/css/main.css" rel="stylesheet">
 
 </head>
 
@@ -60,7 +60,7 @@
 
     <header class="header dark-background d-flex flex-column mobile-header">
         <div class="profile-img">
-            <img src="{{ env('APP_ASSETIC_URL') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle">
+            <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle">
         </div>
 
         <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -108,14 +108,13 @@
         <!-- Hero Section -->
         <section id="hero" class="hero section dark-background">
 
-            <img src="{{ env('APP_ASSETIC_URL') }}/assets/img/background.jpg" alt="" data-aos="fade-in"
+            <img src="{{ url('') }}/assets/img/background.jpg" alt="" data-aos="fade-in"
                 class="hero-img">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <h2>Wahyu Nur Cahyo</h2>
 
-                <p>I'm <span class="typed"
-                        data-typed-items="Freelancer, Programmer, Web Developer"></span><span
+                <p>I'm <span class="typed" data-typed-items="Freelancer, Programmer, Web Developer"></span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
                         class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
             </div>
@@ -124,7 +123,7 @@
         {{-- profile section --}}
         <section class="section mobile-section dark-background flex-column align-items-center justify-content-center">
             <div class="profile-img w-100 d-flex justify-content-center align-items-center mb-5">
-                <img src="{{ env('APP_ASSETIC_URL') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle"
+                <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle"
                     width="200px;">
             </div>
 
@@ -155,10 +154,15 @@
                 <h2>About</h2>
                 <div class="text-justify">
                     <p>
-                        Halo! Saya Wahyu Nur Cahyo, seorang web developer asal Bojonegoro yang berfokus pada pengembangan aplikasi berbasis CodeIgniter 4, PHP basic, dan Laravel. Saya terbiasa menggunakan Tailwind dan Bootstrap untuk membangun tampilan web yang modern, responsif, dan efisien.
+                        Halo! Saya Wahyu Nur Cahyo, seorang web developer asal Bojonegoro yang berfokus pada
+                        pengembangan aplikasi berbasis CodeIgniter 4, PHP basic, dan Laravel. Saya terbiasa menggunakan
+                        Tailwind dan Bootstrap untuk membangun tampilan web yang modern, responsif, dan efisien.
                     </p>
                     <i>
-                        Dengan pengalaman lebih dari 1 tahun, saya telah membantu berbagai klien lokal mengembangkan sistem informasi, landing page, hingga dashboard yang mendukung operasional mereka secara digital. Saya dikenal sebagai developer yang telaten, senang belajar hal baru, dan fokus pada hasil kerja yang rapi dan optimal.
+                        Dengan pengalaman lebih dari 1 tahun, saya telah membantu berbagai klien lokal mengembangkan
+                        sistem informasi, landing page, hingga dashboard yang mendukung operasional mereka secara
+                        digital. Saya dikenal sebagai developer yang telaten, senang belajar hal baru, dan fokus pada
+                        hasil kerja yang rapi dan optimal.
                     </i>
                 </div>
             </div><!-- End Section Title -->
@@ -167,7 +171,7 @@
 
                 <div class="row gy-4 justify-content-center">
                     <div class="col-lg-4">
-                        <img src="{{ env('APP_ASSETIC_URL') }}/assets/img/profil.jpg" class="img-fluid" alt=""
+                        <img src="{{ url('') }}/assets/img/profil.jpg" class="img-fluid" alt=""
                             style="border-top-right-radius: 10px; border-bottom-left-radius: 10px;">
                     </div>
                     <div class="col-lg-8 content">
@@ -185,7 +189,8 @@
                                                 class="text-decoration-none text-dark">portofolio.sirese.biz.id</a></span>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Telepon/WhatsApp:</strong>
-                                        <span>+62 813 8129 3323</span></li>
+                                        <span>+62 813 8129 3323</span>
+                                    </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Kota:</strong> <span>Bojonegoro,
                                             Jawa Timur, Indonesia</span></li>
                                 </ul>
@@ -207,7 +212,9 @@
                             </div>
                         </div>
                         <p class="py-3 text-justify">
-                            Saya percaya bahwa teknologi bukan hanya soal kode, tapi juga solusi. Jika Anda membutuhkan partner teknis yang bisa diajak berdiskusi dan membangun solusi digital bersama, jangan ragu untuk menghubungi saya.
+                            Saya percaya bahwa teknologi bukan hanya soal kode, tapi juga solusi. Jika Anda membutuhkan
+                            partner teknis yang bisa diajak berdiskusi dan membangun solusi digital bersama, jangan ragu
+                            untuk menghubungi saya.
                         </p>
                     </div>
                 </div>
@@ -238,7 +245,14 @@
                             <h5>2016 - 2019</h5>
                             <p><em>SMK Negeri 1 Purwosari, Bojonegoro, Jawa Timur</em></p>
                             <p class="text-justify">
-                                Di SMK Negeri 1 Purwosari, saya mengambil jurusan Rekayasa Perangkat Lunak yang memperkenalkan saya pada dunia pemrograman untuk pertama kalinya. Meskipun saya menghadapi keterbatasan dalam hal perangkat keras, seperti laptop atau komputer yang kurang memadai untuk pengembangan perangkat lunak, saya tetap berusaha semaksimal mungkin untuk mempelajari dasar-dasar pemrograman. Di sini saya mulai mengembangkan minat yang mendalam terhadap teknologi dan pemrograman, dan terus mengasah keterampilan saya meskipun menghadapi banyak tantangan. Pengalaman ini membentuk dasar pengetahuan saya yang kemudian saya kembangkan lebih lanjut di tingkat pendidikan tinggi.
+                                Di SMK Negeri 1 Purwosari, saya mengambil jurusan Rekayasa Perangkat Lunak yang
+                                memperkenalkan saya pada dunia pemrograman untuk pertama kalinya. Meskipun saya
+                                menghadapi keterbatasan dalam hal perangkat keras, seperti laptop atau komputer yang
+                                kurang memadai untuk pengembangan perangkat lunak, saya tetap berusaha semaksimal
+                                mungkin untuk mempelajari dasar-dasar pemrograman. Di sini saya mulai mengembangkan
+                                minat yang mendalam terhadap teknologi dan pemrograman, dan terus mengasah keterampilan
+                                saya meskipun menghadapi banyak tantangan. Pengalaman ini membentuk dasar pengetahuan
+                                saya yang kemudian saya kembangkan lebih lanjut di tingkat pendidikan tinggi.
                             </p>
                         </div><!-- Edn Resume Item -->
                         <div class="resume-item">
@@ -246,7 +260,15 @@
                             <h5>2020 - 2021 (Semester 1-2)</h5>
                             <p><em>Universitas Islam Lamongan, Lamongan, Jawa Timur</em></p>
                             <p class="text-justify">
-                                Pada awalnya, saya memulai pendidikan di Universitas Islam Lamongan di Program Studi Teknik Informatika. Namun, setelah menjalani dua semester, saya memutuskan untuk pindah universitas. Keputusan ini diambil karena beberapa pertimbangan, termasuk biaya hidup yang lebih tinggi dan kurangnya fokus pada materi pemrograman yang mendalam. Sebagian besar materi lebih berfokus pada teori umum dan kurang mengakomodasi kebutuhan saya untuk mendalami aspek praktis pemrograman. Saya juga menghadapi kesulitan dalam menyesuaikan diri dengan metode pengajaran yang ada, yang akhirnya mendorong saya untuk mencari lingkungan pendidikan yang lebih mendukung tujuan karier saya di bidang teknologi dan pemrograman.
+                                Pada awalnya, saya memulai pendidikan di Universitas Islam Lamongan di Program Studi
+                                Teknik Informatika. Namun, setelah menjalani dua semester, saya memutuskan untuk pindah
+                                universitas. Keputusan ini diambil karena beberapa pertimbangan, termasuk biaya hidup
+                                yang lebih tinggi dan kurangnya fokus pada materi pemrograman yang mendalam. Sebagian
+                                besar materi lebih berfokus pada teori umum dan kurang mengakomodasi kebutuhan saya
+                                untuk mendalami aspek praktis pemrograman. Saya juga menghadapi kesulitan dalam
+                                menyesuaikan diri dengan metode pengajaran yang ada, yang akhirnya mendorong saya untuk
+                                mencari lingkungan pendidikan yang lebih mendukung tujuan karier saya di bidang
+                                teknologi dan pemrograman.
                             </p>
                         </div><!-- Edn Resume Item -->
 
@@ -255,7 +277,16 @@
                             <h5>2021 - 2024 (Semester 3 - Lulus)</h5>
                             <p><em>Universitas Nahdlatul Ulama Sunan Giri, Bojonegoro, Jawa Timur</em></p>
                             <p class="text-justify">
-                                Setelah memulai pendidikan di Universitas Islam Lamongan, saya melanjutkan studi di Universitas Nahdlatul Ulama Sunan Giri Bojonegoro dengan membawa konversi nilai dari kampus sebelumnya. Keputusan untuk pindah universitas diambil dengan pertimbangan yang matang, termasuk biaya hidup yang lebih terjangkau dan adanya program studi yang lebih mendalami materi pemrograman. Di universitas ini, saya dapat menggali lebih dalam tentang dunia pemrograman dan teknologi informasi, serta mengikuti berbagai mata kuliah yang memperkuat pengetahuan praktis dan teori saya dalam pengembangan perangkat lunak. Berkat ketekunan dan dedikasi dalam belajar, saya berhasil lulus dengan predikat IPK 3.75, yang menjadi bukti komitmen saya terhadap pendidikan dan pengembangan diri di bidang ini.
+                                Setelah memulai pendidikan di Universitas Islam Lamongan, saya melanjutkan studi di
+                                Universitas Nahdlatul Ulama Sunan Giri Bojonegoro dengan membawa konversi nilai dari
+                                kampus sebelumnya. Keputusan untuk pindah universitas diambil dengan pertimbangan yang
+                                matang, termasuk biaya hidup yang lebih terjangkau dan adanya program studi yang lebih
+                                mendalami materi pemrograman. Di universitas ini, saya dapat menggali lebih dalam
+                                tentang dunia pemrograman dan teknologi informasi, serta mengikuti berbagai mata kuliah
+                                yang memperkuat pengetahuan praktis dan teori saya dalam pengembangan perangkat lunak.
+                                Berkat ketekunan dan dedikasi dalam belajar, saya berhasil lulus dengan predikat IPK
+                                3.75, yang menjadi bukti komitmen saya terhadap pendidikan dan pengembangan diri di
+                                bidang ini.
                             </p>
                         </div>
                     </div>
@@ -269,11 +300,14 @@
                             <p><em>PT. Astra Honda Motor, Bekasi, Jawa Barat</em></p>
                             <ul>
                                 <li>Melakukan inventarisasi stok sebelum proses produksi dimulai.</li>
-                                <li>Melaksanakan pemeriksaan kualitas (quality check) barang sebelum masuk ke lini produksi.</li>
+                                <li>Melaksanakan pemeriksaan kualitas (quality check) barang sebelum masuk ke lini
+                                    produksi.</li>
                                 <li>Menyiapkan barang sesuai dengan perencanaan produksi harian.</li>
-                                <li>Menerapkan sistem FIFO (First In, First Out) untuk menjaga kualitas dan efisiensi alur barang.</li>
+                                <li>Menerapkan sistem FIFO (First In, First Out) untuk menjaga kualitas dan efisiensi
+                                    alur barang.</li>
                                 <li>Melakukan inventarisasi stok setelah proses produksi selesai.</li>
-                                <li>Melaksanakan kegiatan stock opname secara berkala sesuai dengan jadwal yang telah ditentukan.</li>
+                                <li>Melaksanakan kegiatan stock opname secara berkala sesuai dengan jadwal yang telah
+                                    ditentukan.</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
                         <div class="resume-item">
@@ -281,11 +315,15 @@
                             <h5>2023</h5>
                             <p><em>Dinas Kebudayaan dan Pariwisata, Bojonegoro, Jawa Timur</em></p>
                             <ul>
-                                <li>Membantu menyusun laporan RAB keuangan untuk berbagai kegiatan yang diselenggarakan oleh dinas</li>
-                                <li>Menyusun proposal kegiatan yang mendukung perencanaan acara kebudayaan dan pariwisata.</li>
+                                <li>Membantu menyusun laporan RAB keuangan untuk berbagai kegiatan yang diselenggarakan
+                                    oleh dinas</li>
+                                <li>Menyusun proposal kegiatan yang mendukung perencanaan acara kebudayaan dan
+                                    pariwisata.</li>
                                 <li>Membuat surat undangan untuk peserta dan pemangku kepentingan terkait acara.</li>
-                                <li>Memberikan dukungan IT untuk memastikan kelancaran kegiatan yang melibatkan perangkat keras dan perangkat lunak.</li>
-                                <li>Terlibat sebagai panitia kegiatan lapangan untuk memastikan pelaksanaan acara berjalan dengan lancar, termasuk koordinasi logistik dan keperluan lainnya.</li>
+                                <li>Memberikan dukungan IT untuk memastikan kelancaran kegiatan yang melibatkan
+                                    perangkat keras dan perangkat lunak.</li>
+                                <li>Terlibat sebagai panitia kegiatan lapangan untuk memastikan pelaksanaan acara
+                                    berjalan dengan lancar, termasuk koordinasi logistik dan keperluan lainnya.</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
                         <div class="resume-item">
@@ -294,13 +332,17 @@
                             <p><em>Mudaraga Team, Nawala Dev, Whyyy-Project</em></p>
                             <ul>
                                 <li>Mengkustomisasi template untuk memenuhi kebutuhan UI/UX sesuai project.</li>
-                                <li>Menyesuaikan warna, layout, navigasi, dan komponen UI agar sesuai branding client.</li>
+                                <li>Menyesuaikan warna, layout, navigasi, dan komponen UI agar sesuai branding client.
+                                </li>
                                 <li>Merancang arsitektur halaman, routing, dan struktur database.</li>
                                 <li>Mengembangkan website berbasis CodeIgniter 4 dengan server-side rendering.</li>
                                 <li>Membangun fitur seperti form, login system, manajemen konten, dan dashboard.</li>
-                                <li>Melakukan pengujian multi-perangkat untuk memastikan performa dan kompatibilitas.</li>
-                                <li>Melakukan deployment baik secara localserver maupun web server menggunakan FTP, Git, atau upload langsung.</li>
-                                <li>Memberikan layanan maintenance berkala: backup, update, troubleshooting, dan optimasi.</li>
+                                <li>Melakukan pengujian multi-perangkat untuk memastikan performa dan kompatibilitas.
+                                </li>
+                                <li>Melakukan deployment baik secara localserver maupun web server menggunakan FTP, Git,
+                                    atau upload langsung.</li>
+                                <li>Memberikan layanan maintenance berkala: backup, update, troubleshooting, dan
+                                    optimasi.</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
 
@@ -318,7 +360,8 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Portfolio</h2>
-                <p>Berikut merupakan portofolio saya yang memuat rangkuman pengalaman kerja dan proyek pengembangan web yang telah saya jalani.</p>
+                <p>Berikut merupakan portofolio saya yang memuat rangkuman pengalaman kerja dan proyek pengembangan web
+                    yang telah saya jalani.</p>
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -330,11 +373,11 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
                             <div class="portfolio-content h-100">
-                                <img src="{{ env('APP_ASSETIC_URL') }}assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-info">
                                     <h4>Pakalring</h4>
                                     <p>Paklaring Warehouse Operator PT. AHM</p>
-                                    <a href="{{ env('APP_ASSETIC_URL') }}assets/img/portfolio/app-1.jpg" title="Paklaring"
+                                    <a href="{{ url('') }}/assets/img/portfolio/app-1.jpg" title="Paklaring"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
                                     <a href="portfolio-details.html" title="More Details" class="details-link"><i
@@ -357,7 +400,8 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up" style="margin-bottom:-10px;">
                 <h2>Contact</h2>
-                <p>Saya terbuka untuk berbagai peluang kerja. Silakan hubungi saya jika Anda tertarik untuk merekrut saya.</p>
+                <p>Saya terbuka untuk berbagai peluang kerja. Silakan hubungi saya jika Anda tertarik untuk merekrut
+                    saya.</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -495,7 +539,8 @@
 
         <div class="container">
             <div class="copyright text-center ">
-                <p>© {{ date('Y') }} <span>Copyright</span> <strong class="px-1 sitename">Whyyy-Project</strong> <span>All Rights
+                <p>© {{ date('Y') }} <span>Copyright</span> <strong class="px-1 sitename">Whyyy-Project</strong>
+                    <span>All Rights
                         Reserved</span></p>
             </div>
             <div class="credits">
