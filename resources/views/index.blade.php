@@ -334,7 +334,7 @@
                                 <div class="portfolio-info">
                                     <h4>Pakalring</h4>
                                     <p>Paklaring Warehouse Operator PT. AHM</p>
-                                    <a href="assets/img/portfolio/app-1.jpg" title="App 1"
+                                    <a href="assets/img/portfolio/app-1.jpg" title="Paklaring"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
                                     <a href="portfolio-details.html" title="More Details" class="details-link"><i
