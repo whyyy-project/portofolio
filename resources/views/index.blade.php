@@ -9,8 +9,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/icon.png" rel="icon">
-    <link href="assets/img/icon.png" rel="apple-touch-icon">
+    <link href="{{ env('APP_ASSETIC_URL') }}assets/img/icon.png" rel="icon">
+    <link href="{{ env('APP_ASSETIC_URL') }}assets/img/icon.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -20,13 +20,13 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="{{ env('APP_ASSETIC_URL') }}assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ env('APP_ASSETIC_URL') }}assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="{{ env('APP_ASSETIC_URL') }}assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="{{ env('APP_ASSETIC_URL') }}assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="{{ env('APP_ASSETIC_URL') }}assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="{{ env('APP_ASSETIC_URL') }}assets/css/main.css" rel="stylesheet">
 
 </head>
 
@@ -60,7 +60,7 @@
 
     <header class="header dark-background d-flex flex-column mobile-header">
         <div class="profile-img">
-            <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle">
+            <img src="{{ env('APP_ASSETIC_URL') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle">
         </div>
 
         <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -108,7 +108,7 @@
         <!-- Hero Section -->
         <section id="hero" class="hero section dark-background">
 
-            <img src="{{ url('') }}/assets/img/background.jpg" alt="" data-aos="fade-in"
+            <img src="{{ env('APP_ASSETIC_URL') }}/assets/img/background.jpg" alt="" data-aos="fade-in"
                 class="hero-img">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -124,7 +124,7 @@
         {{-- profile section --}}
         <section class="section mobile-section dark-background flex-column align-items-center justify-content-center">
             <div class="profile-img w-100 d-flex justify-content-center align-items-center mb-5">
-                <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle"
+                <img src="{{ env('APP_ASSETIC_URL') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle"
                     width="200px;">
             </div>
 
@@ -167,7 +167,7 @@
 
                 <div class="row gy-4 justify-content-center">
                     <div class="col-lg-4">
-                        <img src="{{ url('') }}/assets/img/profil.jpg" class="img-fluid" alt=""
+                        <img src="{{ env('APP_ASSETIC_URL') }}/assets/img/profil.jpg" class="img-fluid" alt=""
                             style="border-top-right-radius: 10px; border-bottom-left-radius: 10px;">
                     </div>
                     <div class="col-lg-8 content">
@@ -330,11 +330,11 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
                             <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                                <img src="{{ env('APP_ASSETIC_URL') }}assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-info">
                                     <h4>Pakalring</h4>
                                     <p>Paklaring Warehouse Operator PT. AHM</p>
-                                    <a href="assets/img/portfolio/app-1.jpg" title="Paklaring"
+                                    <a href="{{ env('APP_ASSETIC_URL') }}assets/img/portfolio/app-1.jpg" title="Paklaring"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
                                     <a href="portfolio-details.html" title="More Details" class="details-link"><i
