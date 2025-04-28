@@ -198,7 +198,7 @@
                                         <span>S1 Teknik Informatika</span>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                                        <span>wahyu@sirese.biz.id</span>
+                                        <span>wahyu.nur.cahyo.id@gmail.com</span>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Status Pernikahan:</strong>
                                         <span>Belum Menikah</span>
@@ -237,30 +237,30 @@
                             <h4>S1 Teknik Informatika</h4>
                             <h5>2021 - 2024 (Semester 3 - Lulus)</h5>
                             <p><em>Universitas Nahdlatul Ulama Sunan Giri, Bojonegoro, Jawa Timur</em></p>
-                            <p>
-                                Melanjutkan pendidikan di Universitas Nahdlatul Ulama Sunan Giri Bojonegoro dengan konversi nilai dari Kampus sebelumnya, hingga Lulus dengan nilai IPK 3.75.
+                            <p class="text-justify">
+                                Setelah memulai pendidikan di Universitas Islam Lamongan, saya melanjutkan studi di Universitas Nahdlatul Ulama Sunan Giri Bojonegoro dengan membawa konversi nilai dari kampus sebelumnya. Keputusan untuk pindah universitas diambil dengan pertimbangan yang matang, termasuk biaya hidup yang lebih terjangkau dan adanya program studi yang lebih mendalami materi pemrograman. Di universitas ini, saya dapat menggali lebih dalam tentang dunia pemrograman dan teknologi informasi, serta mengikuti berbagai mata kuliah yang memperkuat pengetahuan praktis dan teori saya dalam pengembangan perangkat lunak. Berkat ketekunan dan dedikasi dalam belajar, saya berhasil lulus dengan predikat IPK 3.75, yang menjadi bukti komitmen saya terhadap pendidikan dan pengembangan diri di bidang ini.
                             </p>
                         </div>
                         <div class="resume-item">
                             <h4>S1 Teknik Informatika</h4>
                             <h5>2020 - 2021 (Semester 1-2)</h5>
                             <p><em>Universitas Islam Lamongan, Lamongan, Jawa Timur</em></p>
-                            <p>
-                                Memutuskan pindah Universitas dengan alasan biaya hidup, kurangnya materi mengenai pengenalan pemrograman, lebih berfokus pada materi umum, dan sulitnya mendapatkan nilai yang baik.
+                            <p class="text-justify">
+                                Pada awalnya, saya memulai pendidikan di Universitas Islam Lamongan di Program Studi Teknik Informatika. Namun, setelah menjalani dua semester, saya memutuskan untuk pindah universitas. Keputusan ini diambil karena beberapa pertimbangan, termasuk biaya hidup yang lebih tinggi dan kurangnya fokus pada materi pemrograman yang mendalam. Sebagian besar materi lebih berfokus pada teori umum dan kurang mengakomodasi kebutuhan saya untuk mendalami aspek praktis pemrograman. Saya juga menghadapi kesulitan dalam menyesuaikan diri dengan metode pengajaran yang ada, yang akhirnya mendorong saya untuk mencari lingkungan pendidikan yang lebih mendukung tujuan karier saya di bidang teknologi dan pemrograman.
                             </p>
                         </div><!-- Edn Resume Item -->
                         <div class="resume-item">
                             <h4>Rekayasa Perangkat Lunak</h4>
                             <h5>2016 - 2019</h5>
                             <p><em>SMK Negeri 1 Purwosari, Bojonegoro, Jawa Timur</em></p>
-                            <p>
-                                Pertama kali mengenal pemrograman, dan akhirnya memiliki minat mengenai pemrograman. Hanya saja saya memiliki keterbatasan perangkat laptop/komputer untuk melakukan pemrograman.
+                            <p class="text-justify">
+                                Di SMK Negeri 1 Purwosari, saya mengambil jurusan Rekayasa Perangkat Lunak yang memperkenalkan saya pada dunia pemrograman untuk pertama kalinya. Meskipun saya menghadapi keterbatasan dalam hal perangkat keras, seperti laptop atau komputer yang kurang memadai untuk pengembangan perangkat lunak, saya tetap berusaha semaksimal mungkin untuk mempelajari dasar-dasar pemrograman. Di sini saya mulai mengembangkan minat yang mendalam terhadap teknologi dan pemrograman, dan terus mengasah keterampilan saya meskipun menghadapi banyak tantangan. Pengalaman ini membentuk dasar pengetahuan saya yang kemudian saya kembangkan lebih lanjut di tingkat pendidikan tinggi.
                             </p>
                         </div><!-- Edn Resume Item -->
 
                     </div>
 
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-6 lh-sm" data-aos="fade-up" data-aos-delay="200">
                         <h3 class="resume-title">Pengalaman Kerja</h3>
 
                         <div class="resume-item">
@@ -274,6 +274,33 @@
                                 <li>Menerapkan sistem FIFO (First In, First Out) untuk menjaga kualitas dan efisiensi alur barang.</li>
                                 <li>Melakukan inventarisasi stok setelah proses produksi selesai.</li>
                                 <li>Melaksanakan kegiatan stock opname secara berkala sesuai dengan jadwal yang telah ditentukan.</li>
+                            </ul>
+                        </div><!-- Edn Resume Item -->
+                        <div class="resume-item">
+                            <h4>Internship</h4>
+                            <h5>2023</h5>
+                            <p><em>Dinas Kebudayaan dan Pariwisata, Bojonegoro, Jawa Timur</em></p>
+                            <ul>
+                                <li>Membantu menyusun laporan RAB keuangan untuk berbagai kegiatan yang diselenggarakan oleh dinas</li>
+                                <li>Menyusun proposal kegiatan yang mendukung perencanaan acara kebudayaan dan pariwisata.</li>
+                                <li>Membuat surat undangan untuk peserta dan pemangku kepentingan terkait acara.</li>
+                                <li>Memberikan dukungan IT untuk memastikan kelancaran kegiatan yang melibatkan perangkat keras dan perangkat lunak.</li>
+                                <li>Terlibat sebagai panitia kegiatan lapangan untuk memastikan pelaksanaan acara berjalan dengan lancar, termasuk koordinasi logistik dan keperluan lainnya.</li>
+                            </ul>
+                        </div><!-- Edn Resume Item -->
+                        <div class="resume-item">
+                            <h4>Freelance Web Developer</h4>
+                            <h5>2024 - Sekarang</h5>
+                            <p><em>Mudaraga Team, Nawala Dev, Whyyy-Project</em></p>
+                            <ul>
+                                <li>Mengkustomisasi template untuk memenuhi kebutuhan UI/UX sesuai project.</li>
+                                <li>Menyesuaikan warna, layout, navigasi, dan komponen UI agar sesuai branding client.</li>
+                                <li>Merancang arsitektur halaman, routing, dan struktur database.</li>
+                                <li>Mengembangkan website berbasis CodeIgniter 4 dengan server-side rendering.</li>
+                                <li>Membangun fitur seperti form, login system, manajemen konten, dan dashboard.</li>
+                                <li>Melakukan pengujian multi-perangkat untuk memastikan performa dan kompatibilitas.</li>
+                                <li>Melakukan deployment baik secara localserver maupun web server menggunakan FTP, Git, atau upload langsung.</li>
+                                <li>Memberikan layanan maintenance berkala: backup, update, troubleshooting, dan optimasi.</li>
                             </ul>
                         </div><!-- Edn Resume Item -->
 
@@ -291,9 +318,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2>Portfolio</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Berikut merupakan portofolio saya yang memuat rangkuman pengalaman kerja dan proyek pengembangan web yang telah saya jalani.</p>
             </div><!-- End Section Title -->
 
             <div class="container">
@@ -301,189 +326,16 @@
                 <div class="isotope-layout" data-default-filter="*" data-layout="masonry"
                     data-sort="original-order">
 
-                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-product">Product</li>
-                        <li data-filter=".filter-branding">Branding</li>
-                        <li data-filter=".filter-books">Books</li>
-                    </ul><!-- End Portfolio Filters -->
-
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
                             <div class="portfolio-content h-100">
                                 <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>App 1</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <h4>Pakalring</h4>
+                                    <p>Paklaring Warehouse Operator PT. AHM</p>
                                     <a href="assets/img/portfolio/app-1.jpg" title="App 1"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Product 1</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/product-1.jpg" title="Product 1"
-                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Branding 1</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1"
-                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Books 1</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/books-1.jpg" title="Branding 1"
-                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>App 2</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/app-2.jpg" title="App 2"
-                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Product 2</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/product-2.jpg" title="Product 2"
-                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Branding 2</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2"
-                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Books 2</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/books-2.jpg" title="Branding 2"
-                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>App 3</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/app-3.jpg" title="App 3"
-                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Product 3</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/product-3.jpg" title="Product 3"
-                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Branding 3</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2"
-                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>Books 3</h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                    <a href="assets/img/portfolio/books-3.jpg" title="Branding 3"
-                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
                                     <a href="portfolio-details.html" title="More Details" class="details-link"><i
                                             class="bi bi-link-45deg"></i></a>
@@ -643,7 +495,7 @@
 
         <div class="container">
             <div class="copyright text-center ">
-                <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights
+                <p>© {{ date('Y') }} <span>Copyright</span> <strong class="px-1 sitename">Whyyy-Project</strong> <span>All Rights
                         Reserved</span></p>
             </div>
             <div class="credits">
