@@ -5,9 +5,25 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Wahyu Nur Cahyo | Protofolio</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
 
+    <meta name="description"
+        content="Portfolio pribadi Wahyu Nur Cahyo, seorang Web Developer yang berfokus pada teknologi web modern seperti Laravel, CodeIgniter, dan Tailwind CSS. Temukan proyek, pengalaman, dan keterampilan saya di sini.">
+
+    <meta name="keywords"
+        content="Wahyu Nur Cahyo, portfolio web developer, web development, Laravel, CodeIgniter, PHP, Tailwind CSS, proyek teknologi, pengalaman developer">
+
+    <meta property="og:title" content="Wahyu Nur Cahyo | Portfolio Web Developer & Teknologi">
+    <meta property="og:description"
+        content="Portfolio pribadi Wahyu Nur Cahyo, seorang Web Developer yang berfokus pada teknologi web modern seperti CodeIgniter, dan Tailwind CSS. Temukan proyek, pengalaman, dan keterampilan saya di sini.">
+    <meta property="og:image" content="{{ '/assets/img/profil.jpg' }}">
+    <meta property="og:url" content="https://portofolio.sirese.biz.id">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wahyu Nur Cahyo | Portfolio Web Developer & Teknologi">
+    <meta name="twitter:description"
+        content="Portfolio pribadi Wahyu Nur Cahyo, seorang Web Developer yang berfokus pada teknologi web modern seperti CodeIgniter, dan Tailwind CSS. Temukan proyek, pengalaman, dan keterampilan saya di sini.">
+    <meta name="twitter:image" content="{{ '/assets/img/profil.jpg' }}">
     <!-- Favicons -->
     <link href="{{ url('') }}/assets/img/icon.png" rel="icon">
     <link href="{{ url('') }}/assets/img/icon.png" rel="apple-touch-icon">
@@ -380,8 +396,8 @@
                                     <a href="{{ url('') }}/assets/img/portfolio/app-1.jpg" title="Paklaring"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
-                                    <a href="{{ url('detail-protofolio/paklaring-ahm') }}" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="{{ url('detail-protofolio/paklaring-ahm') }}" title="More Details"
+                                        class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
                         </div><!-- End Portfolio Item -->
@@ -541,7 +557,8 @@
             <div class="copyright text-center ">
                 <p>© {{ date('Y') }} <span>Copyright</span> <strong class="px-1 sitename">Whyyy-Project</strong>
                     <span>All Rights
-                        Reserved</span></p>
+                        Reserved</span>
+                </p>
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
