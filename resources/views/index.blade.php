@@ -355,9 +355,9 @@
         <section id="contact" class="contact section">
 
             <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
+            <div class="container section-title" data-aos="fade-up" style="margin-bottom:-10px;">
                 <h2>Contact</h2>
-                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                <p>Saya terbuka untuk berbagai peluang kerja. Silakan hubungi saya jika Anda tertarik untuk merekrut saya.</p>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -371,7 +371,7 @@
                                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                                 <div>
                                     <h3>Address</h3>
-                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                    <p>Desa Turi, RT/RW 002/001, Kec Tambakrejo, Kab Bojonegoro, Jawa Timur 62166</p>
                                 </div>
                             </div><!-- End Info Item -->
 
@@ -379,7 +379,7 @@
                                 <i class="bi bi-telephone flex-shrink-0"></i>
                                 <div>
                                     <h3>Call Us</h3>
-                                    <p>+1 5589 55488 55</p>
+                                    <p>+62 813 8129 3323</p>
                                 </div>
                             </div><!-- End Info Item -->
 
