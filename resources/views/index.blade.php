@@ -234,13 +234,13 @@
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                         <h3 class="resume-title">Pendidikan</h3>
                         <div class="resume-item">
-                            <h4>S1 Teknik Informatika</h4>
-                            <h5>2021 - 2024 (Semester 3 - Lulus)</h5>
-                            <p><em>Universitas Nahdlatul Ulama Sunan Giri, Bojonegoro, Jawa Timur</em></p>
+                            <h4>Rekayasa Perangkat Lunak</h4>
+                            <h5>2016 - 2019</h5>
+                            <p><em>SMK Negeri 1 Purwosari, Bojonegoro, Jawa Timur</em></p>
                             <p class="text-justify">
-                                Setelah memulai pendidikan di Universitas Islam Lamongan, saya melanjutkan studi di Universitas Nahdlatul Ulama Sunan Giri Bojonegoro dengan membawa konversi nilai dari kampus sebelumnya. Keputusan untuk pindah universitas diambil dengan pertimbangan yang matang, termasuk biaya hidup yang lebih terjangkau dan adanya program studi yang lebih mendalami materi pemrograman. Di universitas ini, saya dapat menggali lebih dalam tentang dunia pemrograman dan teknologi informasi, serta mengikuti berbagai mata kuliah yang memperkuat pengetahuan praktis dan teori saya dalam pengembangan perangkat lunak. Berkat ketekunan dan dedikasi dalam belajar, saya berhasil lulus dengan predikat IPK 3.75, yang menjadi bukti komitmen saya terhadap pendidikan dan pengembangan diri di bidang ini.
+                                Di SMK Negeri 1 Purwosari, saya mengambil jurusan Rekayasa Perangkat Lunak yang memperkenalkan saya pada dunia pemrograman untuk pertama kalinya. Meskipun saya menghadapi keterbatasan dalam hal perangkat keras, seperti laptop atau komputer yang kurang memadai untuk pengembangan perangkat lunak, saya tetap berusaha semaksimal mungkin untuk mempelajari dasar-dasar pemrograman. Di sini saya mulai mengembangkan minat yang mendalam terhadap teknologi dan pemrograman, dan terus mengasah keterampilan saya meskipun menghadapi banyak tantangan. Pengalaman ini membentuk dasar pengetahuan saya yang kemudian saya kembangkan lebih lanjut di tingkat pendidikan tinggi.
                             </p>
-                        </div>
+                        </div><!-- Edn Resume Item -->
                         <div class="resume-item">
                             <h4>S1 Teknik Informatika</h4>
                             <h5>2020 - 2021 (Semester 1-2)</h5>
@@ -249,15 +249,15 @@
                                 Pada awalnya, saya memulai pendidikan di Universitas Islam Lamongan di Program Studi Teknik Informatika. Namun, setelah menjalani dua semester, saya memutuskan untuk pindah universitas. Keputusan ini diambil karena beberapa pertimbangan, termasuk biaya hidup yang lebih tinggi dan kurangnya fokus pada materi pemrograman yang mendalam. Sebagian besar materi lebih berfokus pada teori umum dan kurang mengakomodasi kebutuhan saya untuk mendalami aspek praktis pemrograman. Saya juga menghadapi kesulitan dalam menyesuaikan diri dengan metode pengajaran yang ada, yang akhirnya mendorong saya untuk mencari lingkungan pendidikan yang lebih mendukung tujuan karier saya di bidang teknologi dan pemrograman.
                             </p>
                         </div><!-- Edn Resume Item -->
-                        <div class="resume-item">
-                            <h4>Rekayasa Perangkat Lunak</h4>
-                            <h5>2016 - 2019</h5>
-                            <p><em>SMK Negeri 1 Purwosari, Bojonegoro, Jawa Timur</em></p>
-                            <p class="text-justify">
-                                Di SMK Negeri 1 Purwosari, saya mengambil jurusan Rekayasa Perangkat Lunak yang memperkenalkan saya pada dunia pemrograman untuk pertama kalinya. Meskipun saya menghadapi keterbatasan dalam hal perangkat keras, seperti laptop atau komputer yang kurang memadai untuk pengembangan perangkat lunak, saya tetap berusaha semaksimal mungkin untuk mempelajari dasar-dasar pemrograman. Di sini saya mulai mengembangkan minat yang mendalam terhadap teknologi dan pemrograman, dan terus mengasah keterampilan saya meskipun menghadapi banyak tantangan. Pengalaman ini membentuk dasar pengetahuan saya yang kemudian saya kembangkan lebih lanjut di tingkat pendidikan tinggi.
-                            </p>
-                        </div><!-- Edn Resume Item -->
 
+                        <div class="resume-item">
+                            <h4>S1 Teknik Informatika</h4>
+                            <h5>2021 - 2024 (Semester 3 - Lulus)</h5>
+                            <p><em>Universitas Nahdlatul Ulama Sunan Giri, Bojonegoro, Jawa Timur</em></p>
+                            <p class="text-justify">
+                                Setelah memulai pendidikan di Universitas Islam Lamongan, saya melanjutkan studi di Universitas Nahdlatul Ulama Sunan Giri Bojonegoro dengan membawa konversi nilai dari kampus sebelumnya. Keputusan untuk pindah universitas diambil dengan pertimbangan yang matang, termasuk biaya hidup yang lebih terjangkau dan adanya program studi yang lebih mendalami materi pemrograman. Di universitas ini, saya dapat menggali lebih dalam tentang dunia pemrograman dan teknologi informasi, serta mengikuti berbagai mata kuliah yang memperkuat pengetahuan praktis dan teori saya dalam pengembangan perangkat lunak. Berkat ketekunan dan dedikasi dalam belajar, saya berhasil lulus dengan predikat IPK 3.75, yang menjadi bukti komitmen saya terhadap pendidikan dan pengembangan diri di bidang ini.
+                            </p>
+                        </div>
                     </div>
 
                     <div class="col-lg-6 lh-sm" data-aos="fade-up" data-aos-delay="200">
