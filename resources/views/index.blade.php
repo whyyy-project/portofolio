@@ -63,7 +63,7 @@
             <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle">
         </div>
 
-        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+        <a href="{{ url() }}" class="logo d-flex align-items-center justify-content-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <!-- <img src="assets/img/logo.png" alt=""> -->
             <h1 class="sitename">Wahyu Nur Cahyo</h1>
@@ -380,7 +380,7 @@
                                     <a href="{{ url('') }}/assets/img/portfolio/app-1.jpg" title="Paklaring"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
-                                    <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                                    <a href="{{ url('detail-protofolio/paklaring-ahm') }}" title="More Details" class="details-link"><i
                                             class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
