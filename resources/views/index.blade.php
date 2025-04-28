@@ -63,7 +63,7 @@
             <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle">
         </div>
 
-        <a href="{{ url() }}" class="logo d-flex align-items-center justify-content-center">
+        <a href="{{ url('/') }}" class="logo d-flex align-items-center justify-content-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <!-- <img src="assets/img/logo.png" alt=""> -->
             <h1 class="sitename">Wahyu Nur Cahyo</h1>
