@@ -4,36 +4,37 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Wahyu Nur Cahyo | Protofolio</title>
 
-    <meta name="description"
-        content="Portfolio pribadi Wahyu Nur Cahyo, seorang Web Developer yang berfokus pada teknologi web modern seperti Laravel, CodeIgniter, dan Tailwind CSS. Temukan proyek, pengalaman, dan keterampilan saya di sini.">
+    <title>Wahyu Nur Cahyo | Portfolio Web Developer</title>
+    
+    <!-- Meta SEO -->
+    <meta name="description" content="Portofolio pribadi Wahyu Nur Cahyo, seorang Web Developer dari Bojonegoro, Jawa Timur yang berfokus pada Laravel, CodeIgniter, dan Tailwind CSS.">
+    <meta name="author" content="Wahyu Nur Cahyo">
+    <meta name="keywords" content="Wahyu Nur Cahyo, portfolio web developer, Laravel, CodeIgniter, PHP, Tailwind CSS, proyek web, developer Indonesia">
 
-    <meta name="keywords"
-        content="Wahyu Nur Cahyo, portfolio web developer, web development, Laravel, CodeIgniter, PHP, Tailwind CSS, proyek teknologi, pengalaman developer">
-
+    <!-- Open Graph (Facebook, LinkedIn, dll) -->
     <meta property="og:title" content="Wahyu Nur Cahyo | Portfolio Web Developer & Teknologi">
-    <meta property="og:description"
-        content="Portfolio pribadi Wahyu Nur Cahyo, seorang Web Developer yang berfokus pada teknologi web modern seperti CodeIgniter, dan Tailwind CSS. Temukan proyek, pengalaman, dan keterampilan saya di sini.">
-    <meta property="og:image" content="{{ '/assets/img/profil.jpg' }}">
-    <meta property="og:url" content="https://portofolio.sirese.biz.id">
+    <meta property="og:description" content="Portofolio pribadi Wahyu Nur Cahyo, Web Developer fokus Laravel, CI4, Tailwind. Temukan proyek, pengalaman, dan keahliannya.">
+    <meta property="og:image" content="{{ url('') }}/assets/img/profil.jpg">
+    <meta property="og:url" content="{{ url('') }}">
+    <meta property="og:type" content="website">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Wahyu Nur Cahyo | Portfolio Web Developer & Teknologi">
-    <meta name="twitter:description"
-        content="Portfolio pribadi Wahyu Nur Cahyo, seorang Web Developer yang berfokus pada teknologi web modern seperti CodeIgniter, dan Tailwind CSS. Temukan proyek, pengalaman, dan keterampilan saya di sini.">
-    <meta name="twitter:image" content="{{ '/assets/img/profil.jpg' }}">
-    <!-- Favicons -->
-    <link href="{{ url('') }}/assets/img/icon.png" rel="icon">
-    <link href="{{ url('') }}/assets/img/icon.png" rel="apple-touch-icon">
+    <meta name="twitter:description" content="Portofolio pribadi Wahyu Nur Cahyo, Web Developer fokus Laravel, CI4, Tailwind. Temukan proyek, pengalaman, dan keahliannya.">
+    <meta name="twitter:image" content="{{ url('') }}/assets/img/profil.jpg">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ url('') }}/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ url('') }}/assets/img/icon.png" type="image/png">
+    <link rel="icon" href="{{ url('') }}/assets/img/icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="{{ url('') }}/assets/img/icon.png">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="{{ url('') }}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,10 +42,11 @@
     <link href="{{ url('') }}/assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="{{ url('') }}/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="{{ url('') }}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
     <!-- Main CSS File -->
     <link href="{{ url('') }}/assets/css/main.css" rel="stylesheet">
-
 </head>
+
 
 <body class="index-page">
 
