@@ -165,10 +165,10 @@
             </div>
         </section>
         <!-- About Section -->
-        <section id="about" class="about section">
+        <section id="about" class="about section light-backgorund">
 
             <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
+            <div class="container section-title" data-aos="fade-up" style="margin-bottom:-40px;">
                 <h2>About</h2>
                 <div class="text-justify">
                     <p>
@@ -208,7 +208,16 @@
                             </div>
                             <div class="col-lg-6">
                                 <ul>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Usia:</strong> <span>24
+                                  @php
+                                  use Carbon\Carbon;
+                              
+                                  // Contoh tanggal lahir
+                                  $tanggalLahir = '2000-12-24';
+                              
+                                  // Hitung usia
+                                  $usia = Carbon::parse($tanggalLahir)->age;
+                              @endphp
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Usia:</strong> <span>{{ $usia }}
                                             Tahun</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Pendidikan:</strong>
                                         <span>S1 Teknik Informatika</span>
