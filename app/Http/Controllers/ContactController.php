@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Symfony\Component\Mime\Part\TextPart;
-
+ 
 class ContactController extends Controller
 {
     public function send(Request $request)

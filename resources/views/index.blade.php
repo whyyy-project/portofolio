@@ -384,7 +384,7 @@
             </div><!-- End Section Title -->
 
             <div class="container">
-
+              @foreach($portofolio as $data)
                 <div class="isotope-layout" data-default-filter="*" data-layout="masonry"
                     data-sort="original-order">
 
@@ -392,14 +392,14 @@
 
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
                             <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/portfolio/{{ $data->gambar[0] }}" class="img-fluid" alt="">
                                 <div class="portfolio-info">
-                                    <h4>Pakalring</h4>
-                                    <p>Paklaring Warehouse Operator PT. AHM</p>
-                                    <a href="{{ url('') }}/assets/img/portfolio/app-1.jpg" title="Paklaring"
+                                    <h4>{{ $data->tittle }}</h4>
+                                    <p>{{ $data->sort_desc }}</p>
+                                    <a href="{{ url('') }}/assets/img/portfolio/{{ $data->gambar[0] }}" title="{{ $data->tittle }}"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
-                                    <a href="{{ url('detail-portofolio/paklaring-ahm') }}" title="More Details"
+                                    <a href="{{ url('/detail/'.$data->slug) }}" title="More Details"
                                         class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
@@ -408,6 +408,7 @@
                     </div><!-- End Portfolio Container -->
 
                 </div>
+                @endforeach
 
             </div>
 
