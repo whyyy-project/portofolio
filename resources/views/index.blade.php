@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Wahyu Nur Cahyo | Portfolio Web Developer</title>
+    <title>Wahyu Nur Cahyo | Portofolio</title>
     
     <!-- Meta SEO -->
     <meta name="description" content="Portofolio pribadi Wahyu Nur Cahyo, seorang Web Developer dari Bojonegoro, Jawa Timur yang berfokus pada Laravel, CodeIgniter, dan Tailwind CSS.">
@@ -172,28 +172,21 @@
                 <h2>About</h2>
                 <div class="text-justify">
                     <p>
-                        Halo! Saya Wahyu Nur Cahyo, seorang web developer asal Bojonegoro yang berfokus pada
-                        pengembangan aplikasi berbasis CodeIgniter 4, PHP basic, dan Laravel. Saya terbiasa menggunakan
-                        Tailwind dan Bootstrap untuk membangun tampilan web yang modern, responsif, dan efisien.
+                        Halo! Saya Wahyu Nur Cahyo, seorang web developer asal Bojonegoro yang berfokus pada pengembangan aplikasi berbasis CodeIgniter 4, PHP basic, dan Laravel. Saya terbiasa menggunakan Tailwind dan Bootstrap untuk membangun tampilan web yang modern, responsif, dan efisien.
                     </p>
                     <i>
-                        Dengan pengalaman lebih dari 1 tahun, saya telah membantu berbagai klien lokal mengembangkan
-                        sistem informasi, landing page, hingga dashboard yang mendukung operasional mereka secara
-                        digital. Saya dikenal sebagai developer yang telaten, senang belajar hal baru, dan fokus pada
-                        hasil kerja yang rapi dan optimal.
+                        Dengan pengalaman lebih dari 1 tahun, saya telah membantu berbagai klien lokal mengembangkan sistem informasi, landing page, hingga dashboard yang mendukung operasional mereka secara digital. Saya dikenal sebagai developer yang telaten, senang belajar hal baru, dan fokus pada hasil kerja yang rapi dan optimal.
                     </i>
                 </div>
             </div><!-- End Section Title -->
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-                <div class="row gy-4 justify-content-center">
+                <div class="row gy-2 justify-content-center">
                     <div class="col-lg-4">
                         <img src="{{ url('') }}/assets/img/profil.jpg" class="img-fluid" alt=""
                             style="border-top-right-radius: 10px; border-bottom-left-radius: 10px;">
                     </div>
                     <div class="col-lg-8 content">
-                        <h2>Web Developer.</h2>
                         <p class="fst-italic py-3">
                             Berikut merupakan data pribadi saya :
                         </p>
@@ -398,7 +391,7 @@
                                     <a href="{{ url('') }}/assets/img/portfolio/app-1.jpg" title="Paklaring"
                                         data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
-                                    <a href="{{ url('detail-protofolio/paklaring-ahm') }}" title="More Details"
+                                    <a href="{{ url('detail-portofolio/paklaring-ahm') }}" title="More Details"
                                         class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
