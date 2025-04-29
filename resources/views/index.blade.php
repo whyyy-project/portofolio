@@ -78,7 +78,7 @@
 
     <header class="header dark-background d-flex flex-column mobile-header">
         <div class="profile-img">
-            <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle">
+            <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle" alt="Foto Wahyu Nur Cahyo">
         </div>
 
         <a href="{{ url('/') }}" class="logo d-flex align-items-center justify-content-center">
@@ -142,7 +142,7 @@
         <section class="section mobile-section dark-background flex-column align-items-center justify-content-center">
             <div class="profile-img w-100 d-flex justify-content-center align-items-center mb-5">
                 <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle"
-                    width="200px;">
+                    width="200px;" alt="Foto Wahyu Nur Cahyo">
             </div>
 
             <a href="{{ url('/') }}" class="logo d-flex align-items-center justify-content-center">
@@ -183,8 +183,7 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row gy-2 justify-content-center">
                     <div class="col-lg-4">
-                        <img src="{{ url('') }}/assets/img/profil.jpg" class="img-fluid" alt=""
-                            style="border-top-right-radius: 10px; border-bottom-left-radius: 10px;">
+                        <img src="{{ url('') }}/assets/img/profil.jpg" class="img-fluid" alt="Foto Wahyu Nur Cahyo" style="border-top-right-radius: 10px; border-bottom-left-radius: 10px;">
                     </div>
                     <div class="col-lg-8 content">
                         <p class="fst-italic py-3">
