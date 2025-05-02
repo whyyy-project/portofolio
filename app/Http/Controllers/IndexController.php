@@ -35,9 +35,9 @@ public function detailPortofolio($slug)
     );
 
     // Untuk debug JSON
-    return response()->json($item);
+    // return response()->json($item);
 
-    // return view('detail', compact('item'));
+    return view('portofolio_detail', compact('item'));
 }
 
 }

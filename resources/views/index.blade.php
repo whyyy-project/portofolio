@@ -1,133 +1,11 @@
-<!DOCTYPE html>
-<html lang="id">
+@extends('partials.template_portofolio')
 
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>Wahyu Nur Cahyo | Portofolio</title>
-    
-    <!-- Meta SEO -->
-    <meta name="description" content="Portofolio pribadi Wahyu Nur Cahyo, seorang Web Developer dari Bojonegoro, Jawa Timur yang berfokus pada Laravel, CodeIgniter, dan Tailwind CSS.">
-    <meta name="author" content="Wahyu Nur Cahyo">
-    <meta name="keywords" content="Wahyu Nur Cahyo, portfolio web developer, Laravel, CodeIgniter, PHP, Tailwind CSS, proyek web, developer Indonesia">
-
-    <!-- Open Graph (Facebook, LinkedIn, dll) -->
-    <meta property="og:title" content="Wahyu Nur Cahyo | Portfolio Web Developer & Teknologi">
-    <meta property="og:description" content="Portofolio pribadi Wahyu Nur Cahyo, Web Developer fokus Laravel, CI4, Tailwind. Temukan proyek, pengalaman, dan keahliannya.">
-    <meta property="og:image" content="{{ url('') }}/assets/img/profil.jpg">
-    <meta property="og:url" content="{{ url('') }}">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Wahyu Nur Cahyo | Portfolio Web Developer & Teknologi">
-    <meta name="twitter:description" content="Portofolio pribadi Wahyu Nur Cahyo, Web Developer fokus Laravel, CI4, Tailwind. Temukan proyek, pengalaman, dan keahliannya.">
-    <meta name="twitter:image" content="{{ url('') }}/assets/img/profil.jpg">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ url('') }}/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="{{ url('') }}/assets/img/icon.png" type="image/png">
-    <link rel="icon" href="{{ url('') }}/assets/img/icon.png" type="image/png">
-    <link rel="apple-touch-icon" href="{{ url('') }}/assets/img/icon.png">
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&family=Raleway&display=swap" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="{{ url('') }}/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ url('') }}/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="{{ url('') }}/assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="{{ url('') }}/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="{{ url('') }}/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <!-- Main CSS File -->
-    <link href="{{ url('') }}/assets/css/main.css" rel="stylesheet">
-</head>
-
-
-<body class="index-page">
-
-    @if (session('success'))
-        <div class="custom-alert" id="successNotification">
-            <div class="custom-alert-img"></div>
-            <div class="custom-alert-textbox">
-                <div class="custom-alert-textcontent">
-                    <p class="custom-alert-title">Berhasil!</p>
-                </div>
-                <p class="custom-alert-message">{{ session('success') }}</p>
-            </div>
-        </div>
-        <script>
-            window.addEventListener('DOMContentLoaded', () => {
-                const notif = document.getElementById('successNotification');
-                if (notif) {
-                    setTimeout(() => {
-                        notif.style.opacity = '0';
-                        notif.style.transform = 'translateX(100%)';
-                        setTimeout(() => notif.remove(), 1000);
-                    }, 15000);
-                }
-            });
-        </script>
-    @endif
-
-
-
-    <header class="header dark-background d-flex flex-column mobile-header">
-        <div class="profile-img">
-            <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle" alt="Foto Wahyu Nur Cahyo">
-        </div>
-
-        <a href="{{ url('/') }}" class="logo d-flex align-items-center justify-content-center">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="assets/img/logo.png" alt=""> -->
-            <h1 class="sitename">Wahyu Nur Cahyo</h1>
-        </a>
-
-        <div class="social-links text-center">
-            <a href="https://www.tiktok.com/@cumatukangketik" target="_blank" class="tiktok"><i
-                    class="bi bi-tiktok"></i></a>
-            <a href="https://www.instagram.com/cumatukangketik" target="_blank" class="social-links"><i
-                    class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/wahyu-nur-cahyo-75b502268" target="_blank" class="linkedin"><i
-                    class="bi bi-linkedin"></i></a>
-            <a href="https://www.facebook.com/share/12HZPePEgML/" target="_blank" class="facebook"><i
-                    class="bi bi-facebook"></i></a>
-            <a href="https://x.com/whyyyproject" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        </div>
-
-        <nav id="navmenu" class="navmenu">
-            <ul>
-                <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-                <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-                <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-                <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-                <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Pindahkan navmenu ke luar header -->
-    <nav id="navmenu-mobile" class="navmenu-mobile d-xl-none">
-        <ul>
-            <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-            <li><a href="#about"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-            <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-            <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-            <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
-        </ul>
-    </nav>
-
-
+@section('content')
     <main class="main">
         <!-- Hero Section -->
         <section id="hero" class="hero section dark-background">
 
-            <img src="{{ url('') }}/assets/img/background.jpg" alt="" data-aos="fade-in"
-                class="hero-img">
+            <img src="{{ url('') }}/assets/img/background.jpg" alt="" data-aos="fade-in" class="hero-img">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <h2>Wahyu Nur Cahyo</h2>
@@ -160,8 +38,7 @@
                         class="bi bi-linkedin"></i></a>
                 <a href="https://www.facebook.com/share/12HZPePEgML/" target="_blank" class="facebook"><i
                         class="bi bi-facebook"></i></a>
-                <a href="https://x.com/whyyyproject" target="_blank" class="twitter"><i
-                        class="bi bi-twitter-x"></i></a>
+                <a href="https://x.com/whyyyproject" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
             </div>
         </section>
         <!-- About Section -->
@@ -172,10 +49,15 @@
                 <h2>About</h2>
                 <div class="text-justify">
                     <p>
-                        Halo! Saya Wahyu Nur Cahyo, seorang web developer asal Bojonegoro yang berfokus pada pengembangan aplikasi berbasis CodeIgniter 4, PHP basic, dan Laravel. Saya terbiasa menggunakan Tailwind dan Bootstrap untuk membangun tampilan web yang modern, responsif, dan efisien.
+                        Halo! Saya Wahyu Nur Cahyo, seorang web developer asal Bojonegoro yang berfokus pada pengembangan
+                        aplikasi berbasis CodeIgniter 4, PHP basic, dan Laravel. Saya terbiasa menggunakan Tailwind dan
+                        Bootstrap untuk membangun tampilan web yang modern, responsif, dan efisien.
                     </p>
                     <i>
-                        Dengan pengalaman lebih dari 1 tahun, saya telah membantu berbagai klien lokal mengembangkan sistem informasi, landing page, hingga dashboard yang mendukung operasional mereka secara digital. Saya dikenal sebagai developer yang telaten, senang belajar hal baru, dan fokus pada hasil kerja yang rapi dan optimal.
+                        Dengan pengalaman lebih dari 1 tahun, saya telah membantu berbagai klien lokal mengembangkan sistem
+                        informasi, landing page, hingga dashboard yang mendukung operasional mereka secara digital. Saya
+                        dikenal sebagai developer yang telaten, senang belajar hal baru, dan fokus pada hasil kerja yang
+                        rapi dan optimal.
                     </i>
                 </div>
             </div><!-- End Section Title -->
@@ -183,7 +65,8 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row gy-2 justify-content-center">
                     <div class="col-lg-4">
-                        <img src="{{ url('') }}/assets/img/profil.jpg" class="img-fluid" alt="Foto Wahyu Nur Cahyo" style="border-top-right-radius: 10px; border-bottom-left-radius: 10px;">
+                        <img src="{{ url('') }}/assets/img/profil.jpg" class="img-fluid" alt="Foto Wahyu Nur Cahyo"
+                            style="border-top-right-radius: 10px; border-bottom-left-radius: 10px;">
                     </div>
                     <div class="col-lg-8 content">
                         <p class="fst-italic py-3">
@@ -207,15 +90,15 @@
                             </div>
                             <div class="col-lg-6">
                                 <ul>
-                                  @php
-                                  use Carbon\Carbon;
-                              
-                                  // Contoh tanggal lahir
-                                  $tanggalLahir = '2000-12-24';
-                              
-                                  // Hitung usia
-                                  $usia = Carbon::parse($tanggalLahir)->age;
-                              @endphp
+                                    @php
+                                        use Carbon\Carbon;
+
+                                        // Contoh tanggal lahir
+                                        $tanggalLahir = '2000-12-24';
+
+                                        // Hitung usia
+                                        $usia = Carbon::parse($tanggalLahir)->age;
+                                    @endphp
                                     <li><i class="bi bi-chevron-right"></i> <strong>Usia:</strong> <span>{{ $usia }}
                                             Tahun</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Pendidikan:</strong>
@@ -383,35 +266,32 @@
                     yang telah saya jalani.</p>
             </div><!-- End Section Title -->
 
-            <div class="container">
-              @foreach($portofolio as $data)
-                <div class="isotope-layout" data-default-filter="*" data-layout="masonry"
-                    data-sort="original-order">
-
-                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
-                            <div class="portfolio-content h-100">
-                                <img src="assets/img/portfolio/{{ $data->gambar[0] }}" class="img-fluid" alt="">
-                                <div class="portfolio-info">
-                                    <h4>{{ $data->tittle }}</h4>
-                                    <p>{{ $data->sort_desc }}</p>
-                                    <a href="{{ url('') }}/assets/img/portfolio/{{ $data->gambar[0] }}" title="{{ $data->tittle }}"
-                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="{{ url('/detail/'.$data->slug) }}" title="More Details"
-                                        class="details-link"><i class="bi bi-link-45deg"></i></a>
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            @foreach ($portofolio as $data)
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                                <div class="portfolio-content h-100">
+                                    <img src="assets/img/portofolio/{{ $data->gambar[0] }}" class="img-fluid"
+                                        alt="">
+                                    <div class="portfolio-info">
+                                        <h4>{{ $data->title }}</h4>
+                                        <p>{{ $data->sort_desc }}</p>
+                                        <a href="{{ url('') }}/assets/img/portfolio/{{ $data->gambar[0] }}"
+                                            title="{{ $data->title }}" data-gallery="portfolio-gallery-app"
+                                            class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                        <a href="{{ url('/detail/' . $data->slug) }}#portfolio" title="More Details"
+                                            class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                    </div>
                                 </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
+                            </div><!-- End Portfolio Item -->
+            @endforeach
 
-                    </div><!-- End Portfolio Container -->
+          </div><!-- End Portfolio Container -->
 
-                </div>
-                @endforeach
+        </div>
 
-            </div>
-
+      </div>
         </section><!-- /Portfolio Section -->
 
         <!-- Contact Section -->
@@ -469,14 +349,12 @@
                             <div class="row gy-4">
                                 <div class="col-md-6">
                                     <label for="name-field" class="pb-2">Your Name</label>
-                                    <input type="text" name="name" id="name-field" class="form-control"
-                                        required>
+                                    <input type="text" name="name" id="name-field" class="form-control" required>
                                 </div>
 
                                 <div class="col-md-6">
                                     <label for="email-field" class="pb-2">Your Email</label>
-                                    <input type="email" name="email" id="email-field" class="form-control"
-                                        required>
+                                    <input type="email" name="email" id="email-field" class="form-control" required>
                                 </div>
 
                                 <div class="col-md-12">
@@ -554,52 +432,4 @@
         </section><!-- /Contact Section -->
 
     </main>
-
-    <footer id="footer" class="footer position-relative light-background">
-
-        <div class="container">
-            <div class="copyright text-center ">
-                <p>© {{ date('Y') }} <span>Copyright</span> <strong class="px-1 sitename">Whyyy-Project</strong>
-                    <span>All Rights
-                        Reserved</span>
-                </p>
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you've purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
-                    href="https://themewagon.com">ThemeWagon</a>
-            </div>
-        </div>
-
-    </footer>
-
-    <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
-
-
-
-    <!-- Preloader -->
-    <div id="preloader"></div>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    {{-- <script src="assets/vendor/php-email-form/validate.js"></script> --}}
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/typed.js/typed.umd.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+@endsection
