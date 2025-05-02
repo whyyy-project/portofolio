@@ -11,19 +11,20 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('portfolio', function (Blueprint $table) {
+        Schema::create('portofolio', function (Blueprint $table): void {
             $table->id();
-            $table->string('tittle');
-            $table->text('sort_desc');
-            $table->string('category');
-            $table->string('instansi');
-            $table->string('client');
-            $table->string('date'); // date sebagai varchar
-            $table->string('url');
-            $table->text('head_desc');
-            $table->text('desc');
-            $table->text('img');
-            $table->timestamps(); // otomatis menambahkan kolom created_at dan updated_at
+            $table->text('slug')->nullabel();
+            $table->string('title')->nullabel();
+            $table->text('sort_desc')->nullabel();
+            $table->string('category')->nullabel();
+            $table->string('instansi')->nullabel();
+            $table->string('client')->nullabel();
+            $table->string('date')->nullabel(); // Jika ingin menyimpan tanggal dalam format string (bukan date asli)
+            $table->string('url')->nullable(); // Optional, bisa null
+            $table->text('head_desc')->nullabel();
+            $table->text('desc')->nullabel();
+            $table->text('img')->nullabel(); // Berisi string terpisah dengan <break>
+            $table->timestamps(); // created_at dan updated_at
         });
     }
 
@@ -32,6 +33,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('portfolio');
+        Schema::dropIfExists('portofolio');
     }
 };
