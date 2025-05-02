@@ -261,7 +261,7 @@
 
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
-                <h2>Portfolio</h2>
+                <h2>Portofolio</h2>
                 <p>Berikut merupakan portofolio saya yang memuat rangkuman pengalaman kerja dan proyek pengembangan web
                     yang telah saya jalani.</p>
             </div><!-- End Section Title -->
