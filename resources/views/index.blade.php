@@ -287,7 +287,7 @@
                                             <p>{{ $data->sort_desc }}</p>
                                         </div>
                                         <div>
-                                            <a href="{{ url('') }}/assets/img/portfolio/{{ $data->gambar[0] }}"
+                                            <a href="{{ url('') }}/assets/img/portofolio/{{ $data->gambar[0] }}"
                                                 title="{{ $data->title }}" data-gallery="portfolio-gallery-app"
                                                 class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                             <a href="{{ url('/detail/' . $data->slug) }}#portfolio" title="More Details"
