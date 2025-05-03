@@ -79,7 +79,7 @@
 
     <header class="header dark-background d-flex flex-column mobile-header">
         <div class="profile-img">
-            <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle" alt="Foto Wahyu Nur Cahyo">
+            <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle" alt="Wahyu Nur Cahyo">
         </div>
 
         <a href="{{ url('/') }}" class="logo d-flex align-items-center justify-content-center">

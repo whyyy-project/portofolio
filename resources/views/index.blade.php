@@ -5,7 +5,7 @@
         <!-- Hero Section -->
         <section id="hero" class="hero section dark-background">
 
-            <img src="{{ url('') }}/assets/img/background.jpg" alt="" data-aos="fade-in" class="hero-img">
+            <img src="{{ url('') }}/assets/img/background.jpg" alt="" data-aos="fade-in" class="hero-img" alt="Cover Image Wahyu Nur Cahyo">
 
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <h2>Wahyu Nur Cahyo</h2>
@@ -20,7 +20,7 @@
         <section class="section mobile-section dark-background flex-column align-items-center justify-content-center">
             <div class="profile-img w-100 d-flex justify-content-center align-items-center mb-5">
                 <img src="{{ url('') }}/assets/img/profil.jpg" alt="" class="img-fluid rounded-circle"
-                    width="200px;" alt="Foto Wahyu Nur Cahyo">
+                    width="200px;" alt="Wahyu Nur Cahyo">
             </div>
 
             <a href="{{ url('/') }}" class="logo d-flex align-items-center justify-content-center">
@@ -65,7 +65,7 @@
             <div class="container" data-aos="fade-up" data-aos-delay="100">
                 <div class="row gy-2 justify-content-center">
                     <div class="col-lg-4">
-                        <img src="{{ url('') }}/assets/img/profil.jpg" class="img-fluid" alt="Foto Wahyu Nur Cahyo"
+                        <img src="{{ url('') }}/assets/img/profil.jpg" class="img-fluid" alt="Wahyu Nur Cahyo"
                             style="border-top-right-radius: 10px; border-bottom-left-radius: 10px;">
                     </div>
                     <div class="col-lg-8 content">
@@ -277,7 +277,7 @@
                                     style="display: flex; flex-direction: column; height: 100%; width: 100%;">
 
                                     <div style="width: 100%; aspect-ratio: 4 / 3; overflow: hidden;">
-                                        <img src="{{ url('') }}/assets/img/portofolio/{{ $data->gambar[0] }}" alt=""
+                                        <img src="{{ url('') }}/assets/img/portofolio/{{ $data->gambar[0] }}" alt="{{ $data->title }} Wahyu Nur Cahyo"
                                             style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
                                     </div>
 
@@ -290,7 +290,7 @@
                                         <div>
                                             <a href="{{ url('') }}/assets/img/portofolio/{{ $data->gambar[0] }}"
                                                 title="{{ $data->title }}" data-gallery="portfolio-gallery-app"
-                                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                                class="glightbox preview-link" alt="{{ $data->title }} Wahyu Nur Cahyo"><i class="bi bi-zoom-in"></i></a>
                                             <a href="{{ url('/detail/' . $data->slug) }}#portfolio" title="More Details"
                                                 class="details-link"><i class="bi bi-link-45deg"></i></a>
                                         </div>
