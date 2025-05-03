@@ -276,7 +276,7 @@
                                     style="display: flex; flex-direction: column; height: 100%; width: 100%;">
 
                                     <div style="width: 100%; aspect-ratio: 4 / 3; overflow: hidden;">
-                                        <img src="assets/img/portofolio/{{ $data->gambar[0] }}" alt=""
+                                        <img src="{{ url('') }}/assets/img/portofolio/{{ $data->gambar[0] }}" alt=""
                                             style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
                                     </div>
 
