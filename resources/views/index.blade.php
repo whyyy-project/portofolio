@@ -274,20 +274,30 @@
                             <div class="col-lg-4 col-md-6 portfolio-item isotope-item" style="display: flex;">
                                 <div class="portfolio-content"
                                     style="display: flex; flex-direction: column; height: 100%; width: 100%;">
-                                    <img src="assets/img/portofolio/{{ $data->gambar[0] }}" class="img-fluid"
-                                        alt="" style="object-fit: cover; width: 100%;">
-                                    <div class="portfolio-info" style="margin-top: auto;">
-                                        <h4>{{ $data->title }}</h4>
-                                        <p>{{ $data->sort_desc }}</p>
-                                        <a href="{{ url('') }}/assets/img/portfolio/{{ $data->gambar[0] }}"
-                                            title="{{ $data->title }}" data-gallery="portfolio-gallery-app"
-                                            class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <a href="{{ url('/detail/' . $data->slug) }}#portfolio" title="More Details"
-                                            class="details-link"><i class="bi bi-link-45deg"></i></a>
+
+                                    <div style="width: 100%; aspect-ratio: 4 / 3; overflow: hidden;">
+                                        <img src="assets/img/portofolio/{{ $data->gambar[0] }}" alt=""
+                                            style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+                                    </div>
+
+                                    <div class="portfolio-info"
+                                        style="padding: 16px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                                        <div>
+                                            <h4>{{ $data->title }}</h4>
+                                            <p>{{ $data->sort_desc }}</p>
+                                        </div>
+                                        <div>
+                                            <a href="{{ url('') }}/assets/img/portfolio/{{ $data->gambar[0] }}"
+                                                title="{{ $data->title }}" data-gallery="portfolio-gallery-app"
+                                                class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                            <a href="{{ url('/detail/' . $data->slug) }}#portfolio" title="More Details"
+                                                class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div><!-- End Portfolio Item -->
                         @endforeach
+
                     </div><!-- End Portfolio Container -->
                 </div>
             </div>
