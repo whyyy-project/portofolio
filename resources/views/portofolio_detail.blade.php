@@ -74,8 +74,8 @@
                             <ul>
                                 <li><strong>Kategori</strong>: {{ $item->category }}</li>
                                 <li><strong>Team</strong>: {{ $item->instansi }}</li>
-                                <li><strong>Client</strong>: {{ $item->client }}</li>
-                                <li><strong>Tanggal Proyek</strong>:
+                                <li><strong>Instansi</strong>: {{ $item->client }}</li>
+                                <li><strong>Tanggal</strong>:
                                     {{ $item->date }}</li>
                                 @if ($item->url)
                                     <li><strong>Link</strong>: <a href="{{ $item->url }}"

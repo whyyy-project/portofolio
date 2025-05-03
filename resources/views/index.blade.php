@@ -266,15 +266,16 @@
                     yang telah saya jalani.</p>
             </div><!-- End Section Title -->
 
-      <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-            @foreach ($portofolio as $data)
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
-                                <div class="portfolio-content h-100">
+            <div class="container">
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                    <div class="row gy-4 isotope-container d-flex align-items-stretch" data-aos="fade-up"
+                        data-aos-delay="200">
+                        @foreach ($portofolio as $data)
+                            <div class="col-lg-4 col-md-6 portfolio-item isotope-item h-100">
+                                <div class="portfolio-content h-100 d-flex flex-column">
                                     <img src="assets/img/portofolio/{{ $data->gambar[0] }}" class="img-fluid"
                                         alt="">
-                                    <div class="portfolio-info">
+                                    <div class="portfolio-info mt-auto">
                                         <h4>{{ $data->title }}</h4>
                                         <p>{{ $data->sort_desc }}</p>
                                         <a href="{{ url('') }}/assets/img/portfolio/{{ $data->gambar[0] }}"
@@ -284,14 +285,12 @@
                                             class="details-link"><i class="bi bi-link-45deg"></i></a>
                                     </div>
                                 </div>
-                            </div><!-- End Portfolio Item -->
-            @endforeach
-
-          </div><!-- End Portfolio Container -->
-
-        </div>
-
-      </div>
+                            </div>
+                        @endforeach
+                    </div>
+                    <!-- End Portfolio Container -->
+                </div>
+            </div>
         </section><!-- /Portfolio Section -->
 
         <!-- Contact Section -->
