@@ -263,7 +263,7 @@
             <div class="container section-title" data-aos="fade-up">
                 <h2>Portofolio</h2>
                 <p>Berikut merupakan portofolio saya yang memuat rangkuman pengalaman kerja dan proyek pengembangan web
-                    yang telah saya jalani.</p>
+                    yang telah saya jalani. Catatan : ada beberapa project yang tidak saya tampilkan.</p>
             </div><!-- End Section Title -->
 
             <div class="container">
