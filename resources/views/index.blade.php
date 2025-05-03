@@ -38,7 +38,7 @@
                         class="bi bi-linkedin"></i></a>
                 <a href="https://www.facebook.com/share/12HZPePEgML/" target="_blank" class="facebook"><i
                         class="bi bi-facebook"></i></a>
-                <a href="https://x.com/whyyyproject" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://github.com/whyyy-project" target="_blank" class="twitter"><i class="bi bi-github"></i></a>
             </div>
         </section>
         <!-- About Section -->
@@ -263,7 +263,8 @@
             <div class="container section-title" data-aos="fade-up">
                 <h2>Portofolio</h2>
                 <p>Berikut merupakan portofolio saya yang memuat rangkuman pengalaman kerja dan proyek pengembangan web
-                    yang telah saya jalani. Catatan : ada beberapa project yang tidak saya tampilkan.</p>
+                    yang telah saya jalani.</p>
+                <p>Untuk melihat lebih banyak portofolio, silakan kunjungi akun <a href="https://github.com/whyyy-project" target="_blank">Github</a> saya.</p>
             </div><!-- End Section Title -->
 
             <div class="container">

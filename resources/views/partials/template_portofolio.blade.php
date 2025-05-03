@@ -97,7 +97,7 @@
                     class="bi bi-linkedin"></i></a>
             <a href="https://www.facebook.com/share/12HZPePEgML/" target="_blank" class="facebook"><i
                     class="bi bi-facebook"></i></a>
-            <a href="https://x.com/whyyyproject" target="_blank" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://github.com/whyyy-project" target="_blank" class="twitter"><i class="bi bi-github"></i></a>
         </div>
 
         <nav id="navmenu" class="navmenu">
