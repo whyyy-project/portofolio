@@ -19,6 +19,8 @@ class IndexController extends Controller
                 fn($val) => trim($val) !== ''
             );
         }
+        $data->gambar = array_values($data->gambar); // pastikan index-nya urut
+        shuffle($data->gambar);
         // Kirim ke view 'index'
         return view('index', compact('portofolio'));
     }
