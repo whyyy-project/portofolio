@@ -56,7 +56,8 @@ class HomeController extends Controller
         if ($request->hasFile('img')) {
             foreach ($request->file('img') as $image) {
                 $filename = time() . '_' . $image->getClientOriginalName();
-                $path = public_path(env('PATH_SYS'));
+                $path = env('PATH_SYS'); // Sudah absolut
+
                 $image->move($path, $filename);
                 $images[] = $filename;
             }
